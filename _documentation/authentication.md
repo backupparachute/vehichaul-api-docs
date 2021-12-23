@@ -9,13 +9,13 @@ content_markdown: |-
 
   We use Token authentication, add the API key to the Authorization header for all requests.
   
+  `Authorization: Token token="{api-token}"`
+  {: .info}
+  
   You will also need the account subdomain, the following example is the base URL for each request:
   
-  ```
-  Authorization: Token token="{api-token}"
-  
-  GET https://{subdomain}.vehichaul.com/api/rest/...
-  ```
+  `https://{subdomain}.vehichaul.com/api/rest/...`
+  {: .info}
 
   Nothing will work unless you include this API key
   {: .error}
