@@ -1,32 +1,37 @@
 ---
 title: /vehicles
 position_number: 1.1
-type: post
-description: Create Vehicle
+type: get
+description: Get Vehicle
 parameters:
   - name:
     content:
 content_markdown: |-
-  The vehicle will automatically be added to inventory
-  {: .success}
-  
-  Base URL:
-  
-  `/api/request/vehicles`
-  {: .info}
+  Creates a vehicle
 left_code_blocks:
   - code_block: |-
-    title: Request
-    language: json
+      $.get("http://api.myapp.com/books/3", {
+        token: "YOUR_APP_KEY",
+      }, function(data) {
+        alert(data);
+      });
+    title: jQuery
+    language: javascript
 right_code_blocks:
   - code_block: |2-
-      201 Created
+      {
+        "id": 3,
+        "title": "The Book Thief",
+        "score": 4.3,
+        "dateAdded": "5/1/2015"
+      }
     title: Response
-    language: text
+    language: json
   - code_block: |2-
-      400 Bad Request
+      {
+        "error": true,
+        "message": "Book doesn't exist"
+      }
     title: Error
-    language: text
+    language: json
 ---
-
-
