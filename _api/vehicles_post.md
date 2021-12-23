@@ -56,19 +56,11 @@ left_code_blocks:
     language: json
 right_code_blocks:
   - code_block: |2-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
+      201 Created
     title: Response
-    language: json
+    language: text
   - code_block: |2-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
+      400 Bad Request
     title: Error
-    language: json
+    language: text
 ---
