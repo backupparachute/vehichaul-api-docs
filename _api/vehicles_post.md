@@ -55,7 +55,7 @@ left_code_blocks:
 	 	"bay_location": "string",
 	 	"order_number": 
 	 }
-    title: Requesty Body
+    title: Request
     language: json
 right_code_blocks:
   - code_block: |-
