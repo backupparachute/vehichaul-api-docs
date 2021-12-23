@@ -5,22 +5,22 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our API.
+  Welcome to the Vehichaul REST API Docs
 
   This API document is designed for those interested in developing for our platform.
 
   This API is still under development and will evolve.
 
-  You'll succeed if you do this.
+  Success block example
   {: .success }
 
-  Here's some useful information.
+  Info block example
   {: .info }
 
-  Something may not happen if you try and do this.
+  Warning block example
   {: .warning }
 
-  Something bad will happen if you do this.
+  Error block example
   {: .error }
 left_code_blocks:
   - code_block:
