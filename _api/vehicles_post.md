@@ -9,6 +9,7 @@ content_markdown: |-
   {: .success}
   
   Base URL:
+  
   `/api/request/vehicles`
   {: .info}
 left_code_blocks:
