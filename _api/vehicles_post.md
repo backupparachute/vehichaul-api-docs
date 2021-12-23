@@ -11,7 +11,6 @@ content_markdown: |-
   Base URL:
   `/api/request/vehicles`
   {: .info}
-
 left_code_blocks:
   - code_block: |-
 

@@ -13,7 +13,6 @@ content_markdown: |-
   | 202 | Accepted | Data Stored |
   | 400 | Bad Request | We could not process that action |
   | 403 | Forbidden | We couldn't authenticate you |
-
 left_code_blocks:
   - code_block:
     title: 
