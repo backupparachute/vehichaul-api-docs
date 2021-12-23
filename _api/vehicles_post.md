@@ -3,13 +3,15 @@ title: /vehicles
 position_number: 1.1
 type: post
 description: Create Vehicle
-  Base URL `/api/request/vehicles`
 parameters:
 content_markdown: |-
-  The book will automatically be added to your reading list
+  The vehicle will automatically be added to inventory
   {: .success}
+  
+  Base URL:
+  `/api/request/vehicles`
+  {: .info}
 
-  Adds a book to your collection.
 left_code_blocks:
   - code_block: |-
 
