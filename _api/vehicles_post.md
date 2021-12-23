@@ -13,7 +13,6 @@ content_markdown: |-
   {: .info}
 left_code_blocks:
   - code_block: |-
-
 	 {
 	 	"vin": "KL8CB6S92EC562180",
 	 	"make": "CHEVROLET",

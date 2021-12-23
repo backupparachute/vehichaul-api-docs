@@ -12,7 +12,7 @@ content_markdown: |-
   | 201 | Created | Creation Successful |
   | 202 | Accepted | Data Stored |
   | 400 | Bad Request | We could not process that action |
-  | 403 | Forbidden | We couldn't authenticate you |
+  | 403 | Forbidden | We could not authenticate you |
 left_code_blocks:
   - code_block:
     title: 
