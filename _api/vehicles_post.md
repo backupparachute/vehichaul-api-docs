@@ -11,7 +11,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       {
-		  "key":"value"
+	    "key":"value"
 	  }
     title: Request
     language: json
