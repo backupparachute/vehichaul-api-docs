@@ -9,7 +9,7 @@ content_markdown: |-
 
   This API document is designed for those interested in developing for our platform.
 
-  This API is still under development and will evolve.
+  These API Docs are still under development and will evolve.
 
   Success block example
   {: .success }
