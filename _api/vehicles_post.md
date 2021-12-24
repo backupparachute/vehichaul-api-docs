@@ -8,6 +8,10 @@ parameters:
     content:
 content_markdown: |-
   Adds a vehicle to inventory
+  
+  URL:
+  `https://{subdomain}.vehichaul.com/api/rest/vehicles`
+  {: .info}
 left_code_blocks:
   - code_block: |-
       {
