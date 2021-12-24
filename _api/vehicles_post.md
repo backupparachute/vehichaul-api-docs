@@ -56,9 +56,11 @@ left_code_blocks:
     language: json
 right_code_blocks:
   - code_block: |2-
+      201 Created
     title: Response
     language: json
   - code_block: |2-
+      400 Bad Request
     title: Error
     language: json
 ---
