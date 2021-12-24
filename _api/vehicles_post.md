@@ -1,7 +1,7 @@
 ---
 title: /vehicles
 position_number: 1.1
-type: get
+type: post
 description: Create Vehicle
 parameters:
   - name:
@@ -10,6 +10,9 @@ content_markdown: |-
   Adds a vehicle to inventory
 left_code_blocks:
   - code_block: |-
+      {
+		  "key":"value"
+	  }
     title: Request
     language: json
 right_code_blocks:
