@@ -11,13 +11,15 @@ content_markdown: |-
 left_code_blocks:
   - code_block: |-
       {
-	    "key":"value"
-	  }
+        "id": 3,
+        "title": "The Book Thief",
+        "score": 4.3,
+        "dateAdded": "5/1/2015"
+      }
     title: Request
     language: json
 right_code_blocks:
   - code_block: |2-
-      201 Created
     title: Response
     language: json
   - code_block: |2-
