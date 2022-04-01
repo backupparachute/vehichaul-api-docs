@@ -17,8 +17,11 @@ collections:
   documentation:
     title: Documentation
     position_number: 1
-  api:
-    title: APIs
+  customers:
+    title: Customer APIs
+    position_number: 2
+  rest:
+    title: REST APIs
     position_number: 2
 plugins:
   - jekyll-sitemap
@@ -41,7 +44,12 @@ defaults:
       _hide_content: true
   -
     scope:
-      type: "api"
+      type: "customers"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "rest"
     values:
       _hide_content: true
 

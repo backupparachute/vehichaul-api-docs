@@ -1,5 +1,5 @@
 ---
-title: Customer Estimate
+title: Estimate
 position_number: 1.1
 type: post
 description: /api/connect/customer/estimate

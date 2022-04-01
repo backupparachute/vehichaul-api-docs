@@ -1,5 +1,5 @@
 ---
-title: Customer Vehicle
+title: Vehicle Create
 position_number: 1.2
 type: post
 description: /api/connect/customer/vehicle
