@@ -46,7 +46,7 @@ left_code_blocks:
           "phone": "6185551212"
         },
         "bay_location": "string",
-        "order_number": "string"
+        "order_number": "string",
 		"estimate_id": "value from estimate response"
       }
     title: Request
