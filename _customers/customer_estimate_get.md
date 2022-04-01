@@ -28,7 +28,7 @@ right_code_blocks:
     title: URL
     language: text
   - code_block: |2-
-      {"id":"55eea75d","price":"129.83"}
+      {"id":"bf752528","price":"129.83","pickup_zip":"63124","destination_zip":"62062","category":null}
     title: Response
     language: json
   - code_block: |2-

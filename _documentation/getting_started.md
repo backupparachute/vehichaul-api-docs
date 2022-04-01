@@ -11,17 +11,6 @@ content_markdown: |-
 
   These API Docs are still under development and will evolve.
 
-  Success block example
-  {: .success }
-
-  Info block example
-  {: .info }
-
-  Warning block example
-  {: .warning }
-
-  Error block example
-  {: .error }
 left_code_blocks:
   - code_block:
     title:
