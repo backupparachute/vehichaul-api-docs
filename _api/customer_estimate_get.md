@@ -1,0 +1,36 @@
+---
+title: /api/connect/customer/estimate
+position_number: 1.1
+type: post
+description: Create Vehicle
+parameters:
+  - name: pickup_zip
+    content: Pickup Zipcode
+  - name: destination_zip
+    content: Destination Zip
+  - name: token
+    content: OPTIONAL, you can supply the auth token in the `Authorization` header, or as a url param
+content_markdown: |-
+  This call can handle the auth token in the `Authorization` header, or as a url param.
+  {: .info }
+
+  Returns an estiamte in JSON format if a rate is found for the zipcode lane provided.
+left_code_blocks:
+  - code_block: |-
+      curl https://{subdomain}.vehichaul.com/api/connect/customer/estimate?pickup_zip=12345&destination_zip=63103
+    title: Curl
+    language: bash
+right_code_blocks:
+  - code_block: |2-
+      https://{subdomain}.vehichaul.com/api/connect/customer/estimate?pickup_zip=12345&destination_zip=63103
+    title: URL
+    language: text
+  - code_block: |2-
+      {"id":"55eea75d","price":"129.83"}
+    title: Response
+    language: json
+  - code_block: |2-
+      400 Bad Request
+    title: Error
+    language: json
+---

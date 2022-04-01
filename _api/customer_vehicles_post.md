@@ -1,5 +1,5 @@
 ---
-title: /vehicles
+title: /api/connect/customer/vehicle
 position_number: 1.1
 type: post
 description: Create Vehicle
@@ -7,7 +7,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Adds a vehicle to inventory
+  Adds a vehicle to inventory.
 left_code_blocks:
   - code_block: |-
       {
@@ -15,10 +15,6 @@ left_code_blocks:
         "make": "CHEVROLET",
         "model": "SPARK",
         "year": "2014",
-        "customer": {
-          "name": "String",
-          "identifier": "String or number"
-        },
         "origin": {
           "name": "String",
           "email": "email@email.com",
@@ -56,7 +52,7 @@ left_code_blocks:
     language: json
 right_code_blocks:
   - code_block: |2-
-      https://{subdomain}.vehichaul.com/api/rest/vehicles
+      https://{subdomain}.vehichaul.com/api/connect/customer/vehicle
     title: URL
     language: text
   - code_block: |2-

@@ -14,7 +14,7 @@ content_markdown: |-
   
   You will also need the account subdomain, the following example is the base URL for each request:
   
-  `https://{subdomain}.vehichaul.com/api/rest/...`
+  `https://{subdomain}.vehichaul.com/api/...`
   {: .info}
 
   Nothing will work unless you include this API key

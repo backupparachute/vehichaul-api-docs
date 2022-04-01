@@ -5,7 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to the Vehichaul REST API Docs
+  Welcome to the Vehichaul API Docs
 
   This API document is designed for those interested in developing for our platform.
 
