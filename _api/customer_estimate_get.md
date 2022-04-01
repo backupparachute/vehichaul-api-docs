@@ -1,8 +1,8 @@
 ---
-title: /api/connect/customer/estimate
+title: Customer Estimate
 position_number: 1.1
 type: post
-description: Create Vehicle
+description: /api/connect/customer/estimate
 parameters:
   - name: pickup_zip
     content: Pickup Zipcode
@@ -11,7 +11,7 @@ parameters:
   - name: token
     content: OPTIONAL, you can supply the auth token in the `Authorization` header, or as a url param
 content_markdown: |-
-  This call can handle the auth token in the `Authorization` header, or as a url param.
+  This call can handle the auth token in the Authorization header, or as a url param.
   {: .info }
 
   Returns an estiamte in JSON format if a rate is found for the zipcode lane provided.

@@ -1,6 +1,6 @@
 ---
-title: /api/rest/vehicles
-position_number: 1.1
+title: /vehicles
+position_number: 2.1
 type: post
 description: Create Vehicle
 parameters:

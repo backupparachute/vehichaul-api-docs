@@ -1,8 +1,8 @@
 ---
-title: /api/connect/customer/vehicle
-position_number: 1.1
+title: Customer Vehicle
+position_number: 1.2
 type: post
-description: Create Vehicle
+description: /api/connect/customer/vehicle
 parameters:
   - name:
     content:

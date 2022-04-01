@@ -17,7 +17,7 @@ content_markdown: |-
   `https://{subdomain}.vehichaul.com/api/...`
   {: .info}
 
-  Nothing will work unless you include this API key
+  Nothing will work unless you include your supplied API key
   {: .error}
 left_code_blocks:
   - code_block:
