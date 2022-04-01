@@ -1,8 +1,8 @@
 ---
-title: /vehicles
+title: Vehicle Create
 position_number: 2.1
 type: post
-description: Create Vehicle
+description: /api/rest/vehicles
 parameters:
   - name:
     content:
