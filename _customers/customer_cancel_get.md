@@ -1,5 +1,5 @@
 ---
-title: Status
+title: Cancel
 position_number: 1.4
 type: delete
 description: /api/connect/customer/vehicle
