@@ -1,5 +1,5 @@
 ---
-title: Status
+title: Vehicle Status
 position_number: 1.3
 type: get
 description: /api/connect/customer/vehicle
