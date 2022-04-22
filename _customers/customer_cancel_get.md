@@ -15,7 +15,7 @@ content_markdown: |-
   Cancels transportation for a VIN, this will be rejected if the VIN has already been picked up.
 left_code_blocks:
   - code_block: |-
-      curl https://{subdomain}.vehichaul.com/api/connect/customer/vehicle?vin=12345678901234567
+      curl -X "DELETE" https://{subdomain}.vehichaul.com/api/connect/customer/vehicle?vin=12345678901234567
     title: Curl
     language: bash
 right_code_blocks:
