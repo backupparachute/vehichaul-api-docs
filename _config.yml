@@ -23,6 +23,9 @@ collections:
   rest:
     title: REST APIs
     position_number: 2
+  webhooks:
+    title: Webhooks
+    position_number: 3
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -50,6 +53,11 @@ defaults:
   -
     scope:
       type: "rest"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "webhooks"
     values:
       _hide_content: true
 
