@@ -31,11 +31,6 @@ left_code_blocks:
       				"model": "GRAND CHEROKEE",
       				"year": "2017",
       				"color": null,
-      				"customer": {
-      					"name": " CORPORATE",
-      					"identifier": 56161,
-      					"email": null
-      				},
       				"origin": {
       					"name": "#7193",
       					"email": null,
