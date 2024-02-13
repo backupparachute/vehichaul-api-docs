@@ -76,7 +76,7 @@ left_code_blocks:
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
-      				"line1": 4 Purple Drive",
+      				"line1": "4 Purple Drive",
       				"line2": null,
       				"city": "STOCKBRIDGE",
       				"state": "GA",
