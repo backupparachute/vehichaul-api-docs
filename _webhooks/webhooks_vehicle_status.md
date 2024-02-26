@@ -15,7 +15,7 @@ left_code_blocks:
         "status": "En Route",
         "load_number": 6472,
 				"load_reference_number":"33dd34sdf4d",
-				"order_number":"123456789"
+				"order_number":"123456789",
         "assigned_at": "2023-10-18T19:24:55.000-05:00",
         "pickup_eta": "2023-10-30T00:16:03.000-05:00",
         "delivery_eta": null,
