@@ -72,7 +72,9 @@ left_code_blocks:
       		],
       		"diversion": {
       			"first_leg_reference_number":"",
+						"first_leg_on_hold":"true/false",
       			"last_leg_reference_number":"",
+						"last_leg_on_hold":"true/false",
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
@@ -92,7 +94,8 @@ left_code_blocks:
       		"scheduled_pickup": "2024-02-12T17:00:00.000Z",
       		"scheduled_delivery": "2024-02-13T17:01:00.000Z",
       		"lane": "",
-      		"priority":""
+      		"priority":"",
+					"on_hold":"true/false"
       	}
       }
     title: Request
@@ -103,7 +106,7 @@ right_code_blocks:
     title: URL
     language: text
   - code_block: |2-
-      201 Created
+      202 Accepted
     title: Response
     language: json
   - code_block: |2-
