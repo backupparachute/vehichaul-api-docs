@@ -72,9 +72,9 @@ left_code_blocks:
       		],
       		"diversion": {
       			"first_leg_reference_number":"",
-						"first_leg_on_hold":"false",
+            "first_leg_on_hold":"false",
       			"last_leg_reference_number":"",
-						"last_leg_on_hold":"false",
+            "last_leg_on_hold":"false",
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
@@ -95,7 +95,7 @@ left_code_blocks:
       		"scheduled_delivery": "2024-02-13T17:01:00.000Z",
       		"lane": "",
       		"priority":"",
-					"on_hold":"false"
+          "on_hold":"false"
       	}
       }
     title: Request
