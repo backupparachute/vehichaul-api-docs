@@ -16,7 +16,7 @@ left_code_blocks:
       			"name": "Trucking Co",
       			"identifier": "12345566",
       			"telephone": "",
-      			"email": null,
+      			"email": ""
       		},
       		"vehicles": [
       			{
@@ -68,7 +68,7 @@ left_code_blocks:
       				"subject": "SuperImportant.pdf",
       				"data_remote_url": "http://urlgoeshere.com/test.pdf",
       				"filename": "9786391-super-important.pdf"
-      			},
+      			}
       		],
       		"diversion": {
       			"first_leg_reference_number":"",
