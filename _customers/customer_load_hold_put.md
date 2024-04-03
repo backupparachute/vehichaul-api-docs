@@ -1,6 +1,6 @@
 ---
 title: Load Hold
-position_number: 1.9
+position_number: 1.59
 type: put
 description: /api/connect/customer/load/hold
 parameters:

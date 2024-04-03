@@ -1,6 +1,6 @@
 ---
 title: Load Release
-position_number: 1.10
+position_number: 1.51
 type: put
 description: /api/connect/customer/load/release
 parameters:

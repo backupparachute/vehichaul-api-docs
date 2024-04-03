@@ -1,6 +1,6 @@
 ---
 title: Load Cancel
-position_number: 1.11
+position_number: 1.52
 type: delete
 description: /api/connect/customer/load
 parameters:
