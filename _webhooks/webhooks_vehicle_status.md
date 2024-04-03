@@ -15,12 +15,21 @@ left_code_blocks:
         "status": "En Route",
         "load_number": 6472,
         "load_reference_number": "33dd34sdf4d",
+        "distance":500,
+        "payable":1200,
         "order_number": "123456789",
         "assigned_at": "2023-10-18T19:24:55.000-05:00",
         "pickup_eta": "2023-10-30T00:16:03.000-05:00",
         "delivery_eta": null,
         "picked_up_at": "2023-10-30T00:12:20.000-05:00",
-        "delivered_at": null
+        "delivered_at": null,
+        "documents": [
+          {
+            "subject": "SuperImportant.pdf",
+            "data_remote_url": "http://urlgoeshere.com/test.pdf",
+            "filename": "9786391-super-important.pdf"
+          }
+        ]
       }
     title: Request
     language: json

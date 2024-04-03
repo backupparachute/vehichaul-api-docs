@@ -1,6 +1,6 @@
 ---
 title: Load Create
-position_number: 1.5
+position_number: 1.8
 type: post
 description: /api/connect/customer/load
 parameters:
