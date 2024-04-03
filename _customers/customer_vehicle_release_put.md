@@ -1,6 +1,6 @@
 ---
 title: Vehicle Release
-position_number: 1.6
+position_number: 1.42
 type: put
 description: /api/connect/customer/vehicle/release
 parameters:

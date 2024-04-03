@@ -1,6 +1,6 @@
 ---
 title: Vehicle Hold
-position_number: 1.5
+position_number: 1.41
 type: put
 description: /api/connect/customer/vehicle/hold
 parameters:
