@@ -71,10 +71,20 @@ left_code_blocks:
       			}
       		],
       		"diversion": {
-      			"first_leg_reference_number":"",
-            "first_leg_on_hold":"false",
-      			"last_leg_reference_number":"",
-            "last_leg_on_hold":"false",
+            "first_leg": {
+              "reference_number":"",
+              "on_hold":"false",
+              "lane":"",
+              "priority":"",
+              "special_instructions":""
+            },
+            "last_leg":{
+              "reference_number":"",
+              "on_hold":"false",
+              "lane":"",
+              "priority":"",
+              "special_instructions":""
+            }
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
