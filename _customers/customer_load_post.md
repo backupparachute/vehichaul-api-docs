@@ -71,20 +71,20 @@ left_code_blocks:
       			}
       		],
       		"diversion": {
-            "first_leg": {
-              "reference_number":"",
-              "on_hold":"false",
-              "lane":"",
-              "priority":"",
-              "special_instructions":""
-            },
-            "last_leg":{
-              "reference_number":"",
-              "on_hold":"false",
-              "lane":"",
-              "priority":"",
-              "special_instructions":""
-            }
+      			"first_leg": {
+      				"reference_number":"",
+      				"on_hold":"false",
+      				"lane":"",
+      				"priority":"",
+      				"special_instructions":""
+      			},
+      			"last_leg":{
+      				"reference_number":"",
+      				"on_hold":"false",
+      				"lane":"",
+      				"priority":"",
+      				"special_instructions":""
+      			}
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
