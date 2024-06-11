@@ -84,7 +84,7 @@ left_code_blocks:
       				"lane":"",
       				"priority":"",
       				"special_instructions":""
-      			}
+      			},
       			"address": {
       				"name": "- SOUTHLAKE",
       				"email": null,
