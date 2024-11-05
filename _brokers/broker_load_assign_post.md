@@ -7,12 +7,9 @@ parameters:
   - name: 
     content: 
 content_markdown: |-
-  This call can handle the auth token in the Authorization header, or as a url param.
-  {: .info }
-
   Sends the assigned load to the Broker
 left_code_blocks:
- - code_block: |-
+  - code_block: |-
       {
         "load": {
           "number": 15183,
