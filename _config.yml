@@ -26,6 +26,9 @@ collections:
   webhooks:
     title: Webhooks
     position_number: 3
+  brokers:
+    title: Brokers Connect
+    position_number: 4
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -58,6 +61,11 @@ defaults:
   -
     scope:
       type: "webhooks"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "brokers"
     values:
       _hide_content: true
 
