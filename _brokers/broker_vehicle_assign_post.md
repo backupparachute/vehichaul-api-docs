@@ -1,5 +1,5 @@
 ---
-title: Load Assigned
+title: Vehicle Assigned
 position_number: 4.1
 type: post
 description: BROKER DEFINED URL
@@ -7,7 +7,7 @@ parameters:
   - name: 
     content: 
 content_markdown: |-
-  Sends the assigned load to the Broker
+  Sends the assigned vehicle to the Broker
 left_code_blocks:
   - code_block: |-
       {
@@ -61,7 +61,7 @@ left_code_blocks:
     language: json
 right_code_blocks:
   - code_block: |2-
-      https://{subdomain}.vehichaul.com/api/connect/customer/load/release?number=123456
+      BROKER DEFINED URL
     title: URL
     language: text
   - code_block: |2-
