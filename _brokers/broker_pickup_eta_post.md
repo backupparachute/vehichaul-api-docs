@@ -1,33 +1,30 @@
 ---
 title: Vehicle Pickup Status
-position_number: 4.2
+position_number: 4.4
 type: post
-description: /api/connect/broker/vehicle/pickup/status
+description: /api/connect/broker/vehicle/pickup/eta
 parameters:
   - name: 
     content: 
 content_markdown: |-
-  Receive Vehicle Pickup Status from the Broker
+  Receive Vehicle Pickup ETA updates from the Broker
 left_code_blocks:
   - code_block: |-
       {
         "load": {
-          "connect_uid": 9868,
-          "number": "15235",
+          "connect_uid": 9887,
+          "number": "15271",
           "pickup": {
-            "signature": null,
-            "bol": "http://URL_TO_BOL/bol.pdf",
-            "inspector": "Cora Doneva",
-            "picked_up_at": "2024-11-06T09:00:00.000-06:00",
+            "eta": "2024-11-07T08:00:00.000-06:00",
             "gps": null,
             "remarks": null,
             "address": {
-              "name": "AutoNation Ford Katy",
-              "identifier": "2500",
-              "line1": "20XXX KXXX Fwy",
-              "city": "Katy",
+              "name": "Manheim Houston",
+              "identifier": "",
+              "line1": "14450 West Road",
+              "city": "Houston",
               "state": "TX",
-              "zip": "77450"
+              "zip": "77041"
             }
           },
           "carrier": {
@@ -41,40 +38,42 @@ left_code_blocks:
           },
           "vehicles": [
             {
-              "connect_uid": "9240",
-              "vin": "5FNRL3H9XXXXXX467",
+              "connect_uid": "9276",
+              "vin": "5N1BT3AB2RCXXXXX6",
               "order_number": "",
               "location": null,
               "color": null,
               "origin": {
-                "connect_id": "autonation-189",
-                "name": "AutoNation Ford Katy",
-                "identifier": "2500",
+                "connect_id": "autonation-659",
+                "name": "Manheim Houston",
+                "identifier": "",
                 "ref_key": "autonation",
-                "line1": "20777 Katy Fwy",
-                "city": "Katy",
-                "state": "TX",
-                "zip": "77450"
-              },
-              "destination": {
-                "connect_id": "autonation-322",
-                "name": "AutoNation USA Katy",
-                "identifier": "2924",
-                "ref_key": "autonation",
-                "line1": "15625 Katy Freeway",
+                "line1": "14450 West Road",
                 "city": "Houston",
                 "state": "TX",
-                "zip": "77094"
+                "zip": "77041"
+              },
+              "destination": {
+                "connect_id": "autonation-210",
+                "name": "AutoNation Toyota South Austin",
+                "identifier": "2571",
+                "dealer_code": "",
+                "ref_key": "autonation",
+                "splc": "",
+                "line1": "4800 IH 35 South",
+                "city": "Austin",
+                "state": "TX",
+                "zip": "78745"
               }
             }
           ]
         }
-      } 
+      }
     title: Request
     language: json
 right_code_blocks:
   - code_block: |2-
-      https://{subdomain}.vehichaul.com/api/connect/broker/vehicle/pickup/status
+      https://{subdomain}.vehichaul.com/api/connect/broker/vehicle/pickup/eta
     title: URL
     language: text
   - code_block: |2-
