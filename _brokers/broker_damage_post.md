@@ -1,5 +1,5 @@
 ---
-title: Vehicle Damage Image
+title: Damage Image
 position_number: 4.7
 type: post
 description: /api/connect/broker/vehicle/damage

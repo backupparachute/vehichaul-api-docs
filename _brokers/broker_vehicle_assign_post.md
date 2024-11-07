@@ -1,5 +1,5 @@
 ---
-title: Vehicle Assigned
+title: Assigned
 position_number: 4.1
 type: post
 description: BROKER DEFINED URL

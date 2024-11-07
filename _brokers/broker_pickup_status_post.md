@@ -1,5 +1,5 @@
 ---
-title: Vehicle Pickup Status
+title: Pickup Status
 position_number: 4.2
 type: post
 description: /api/connect/broker/vehicle/pickup/status

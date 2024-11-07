@@ -1,5 +1,5 @@
 ---
-title: Vehicle Delivery Status
+title: Delivery Status
 position_number: 4.5
 type: post
 description: /api/connect/broker/vehicle/delivery/eta

@@ -1,5 +1,5 @@
 ---
-title: Vehicle GPS Location
+title: GPS Location
 position_number: 4.8
 type: post
 description: /api/connect/broker/vehicle/location

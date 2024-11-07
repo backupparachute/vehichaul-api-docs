@@ -1,5 +1,5 @@
 ---
-title: Vehicle Inspection Image
+title: Inspection Image
 position_number: 4.6
 type: post
 description: /api/connect/broker/vehicle/inspection
