@@ -75,7 +75,7 @@ left_code_blocks:
       				"reference_number":"",
       				"on_hold":"false",
       				"lane":"",
-							"po_num:",
+							"po_num":"",
       				"priority":"",
       				"special_instructions":""
       			},
@@ -83,7 +83,7 @@ left_code_blocks:
       				"reference_number":"",
       				"on_hold":"false",
       				"lane":"",
-							"po_num:",
+							"po_num":"",
       				"priority":"",
       				"special_instructions":""
       			},
@@ -106,7 +106,7 @@ left_code_blocks:
       		"scheduled_pickup": "2024-02-12T17:00:00.000Z",
       		"scheduled_delivery": "2024-02-13T17:01:00.000Z",
       		"lane": "",
-					"po_num: "",
+					"po_num":"",
       		"priority":"",
           "on_hold":"false"
       	}
