@@ -1,8 +1,8 @@
 ---
-title: Pickup Status
+title: Pickup ETA
 position_number: 4.4
 type: post
-description: /api/connect/broker/vehicle/pickup/eta
+description: /api/connect/broker/vehicle/pickups/eta
 parameters:
   - name: 
     content: 

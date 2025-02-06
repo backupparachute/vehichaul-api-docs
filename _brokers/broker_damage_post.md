@@ -2,7 +2,7 @@
 title: Damage Image
 position_number: 4.7
 type: post
-description: /api/connect/broker/vehicle/damage
+description: /api/connect/broker/vehicle/damages
 parameters:
   - name: 
     content: 

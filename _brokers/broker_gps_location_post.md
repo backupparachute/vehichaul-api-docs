@@ -2,7 +2,7 @@
 title: GPS Location
 position_number: 4.8
 type: post
-description: /api/connect/broker/vehicle/location
+description: /api/connect/broker/vehicle/locations
 parameters:
   - name: 
     content: 

@@ -2,7 +2,7 @@
 title: Inspection Image
 position_number: 4.6
 type: post
-description: /api/connect/broker/vehicle/inspection
+description: /api/connect/broker/vehicle/inspections
 parameters:
   - name: 
     content: 
