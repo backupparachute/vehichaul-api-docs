@@ -56,7 +56,7 @@ left_code_blocks:
     language: json
 right_code_blocks:
   - code_block: |2-
-      https://{subdomain}.vehichaul.com/api/rest/vehicle
+      https://{subdomain}.vehichaul.com/api/rest/vehicles
     title: URL
     language: text
   - code_block: |2-
