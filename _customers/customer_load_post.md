@@ -57,6 +57,19 @@ left_code_blocks:
                 "phone": "",
                 "special_instructions": ""
               },
+              "bill_to": {
+                "name": "Corporate",
+                "email": null,
+                "line1": "123 Blue rod",
+                "line2": null,
+                "city": "STOCKBRIDGE",
+                "state": "GA",
+                "zip": "30281",
+                "hours": "",
+                "identifier": 45738939,
+                "phone": "",
+                "special_instructions": ""
+              },
               "location": "bay location",
               "order_number": "your custom order number",
               "pickup_eta": "2024-02-12T17:00:00.000Z",
