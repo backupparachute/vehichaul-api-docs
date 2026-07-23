@@ -12,11 +12,19 @@ left_code_blocks:
   - code_block: |-
       {
         "load": {
+          "broker?": {
+            "name*": "ACERTUS",
+            "identifier*": "987654",
+            "telephone?": "",
+            "email": "dispatch@acertusdelivers.com",
+            "dot_number?":""
+          },
           "carrier": {
-            "name": "Trucking Co",
-            "identifier": "12345566",
-            "telephone": "",
-            "email": ""
+            "name*": "Trucking Co",
+            "identifier*": "12345566",
+            "telephone?": "",
+            "email": "dispatch@test.email",
+            "dot_number?":""
           },
           "vehicles": [
             {
@@ -26,12 +34,12 @@ left_code_blocks:
               "height": "69.3",
               "weight": "4545",
               "length": "189.8",
-              "vin": "1C4RJEAGXHC943682",
+              "vin*": "1C4RJEAGXHC943682",
               "make": "JEEP",
               "model": "GRAND CHEROKEE",
               "year": "2017",
               "color": null,
-              "origin": {
+              "origin*": {
                 "name": "#7193",
                 "email": null,
                 "line1": "965 E I-65 SERVICE ROAD S",
@@ -40,11 +48,11 @@ left_code_blocks:
                 "state": "AL",
                 "zip": "36606",
                 "hours": "DRIVER MUST CONTACT ACERTUS TO SCHEDULE APPOINTMENT FOR PICK UP OR DELIVERY",
-                "identifier": 97799,
+                "identifier*": 97799,
                 "phone": "",
                 "special_instructions": ""
               },
-              "destination": {
+              "destination*": {
                 "name": " - SOUTHLAKE",
                 "email": null,
                 "line1": "3100 MT ZION PARKWAY",
@@ -53,11 +61,11 @@ left_code_blocks:
                 "state": "GA",
                 "zip": "30281",
                 "hours": "",
-                "identifier": 482829,
+                "identifier*": 482829,
                 "phone": "",
                 "special_instructions": ""
               },
-              "bill_to": {
+              "bill_to?": {
                 "name": "Corporate",
                 "email": null,
                 "line1": "123 Blue rod",
@@ -66,7 +74,7 @@ left_code_blocks:
                 "state": "GA",
                 "zip": "30281",
                 "hours": "",
-                "identifier": 45738939,
+                "identifier*": 45738939,
                 "phone": "",
                 "special_instructions": ""
               },
@@ -76,15 +84,15 @@ left_code_blocks:
               "delivery_eta": "2024-02-13T17:01:00.000Z"
             }
           ],
-          "documents": [
+          "documents?": [
             {
               "subject": "SuperImportant.pdf",
-              "data_remote_url": "http://urlgoeshere.com/test.pdf",
+              "data_remote_url*": "http://urlgoeshere.com/test.pdf",
               "filename": "9786391-super-important.pdf"
             }
           ],
-          "diversion": {
-            "first_leg": {
+          "diversion?": {
+            "first_leg?": {
               "reference_number": "",
               "on_hold": "false",
               "lane": "",
@@ -92,7 +100,7 @@ left_code_blocks:
               "priority": "",
               "special_instructions": ""
             },
-            "last_leg": {
+            "last_leg?": {
               "reference_number": "",
               "on_hold": "false",
               "lane": "",
@@ -100,7 +108,7 @@ left_code_blocks:
               "priority": "",
               "special_instructions": ""
             },
-            "address": {
+            "address*": {
               "name": "- SOUTHLAKE",
               "email": null,
               "line1": "4 Purple Drive",

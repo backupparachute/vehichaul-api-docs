@@ -54,7 +54,7 @@ left_code_blocks:
         },
         "bay_location": "string",
         "order_number": "string",
-        "estimate_id": "value from estimate response"
+        "estimate_id": "value from estimate response",
         "pickup_eta": "2022-04-26T20:00:00.000Z",
         "delivery_eta": "2022-04-27T20:01:00.000Z",
         "documents": [
