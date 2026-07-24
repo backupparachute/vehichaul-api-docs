@@ -12,18 +12,19 @@ left_code_blocks:
   - code_block: |-
       {
         "load": {
-          "number": 10000,
+          "number*": 10000,
           "carrier": {
             "name": "Trucking Co",
-            "identifier": "12345566",
-            "telephone": "",
-            "email": "dispatch@test.email",
-            "dot_number": "",
-            "driver": {
+            "identifier*": "12345566",
+            "telephone?": "",
+            "email?": "dispatch@test.email",
+            "dot_number?": "",
+            "driver?": {
               "name": "George Washington",
-              "identifier": "T1246",
-              "phone": "",
-              "email": "driver@test.email"
+              "identifier*": "T1246",
+              "phone?": "",
+              "email?": "driver@test.email",
+              "dot_number?": ""
             }
           }
         }
