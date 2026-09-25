@@ -50,7 +50,16 @@ left_code_blocks:
                 "hours": "DRIVER MUST CONTACT ACERTUS TO SCHEDULE APPOINTMENT FOR PICK UP OR DELIVERY",
                 "identifier*": 97799,
                 "phone": "",
-                "special_instructions": ""
+                "special_instructions": "",
+                "contacts*": [
+                  {
+                    "name*": "Jane Smith",
+                    "email*": "jane.smith@example.com",
+                    "phone*": "2515550100",
+                    "title?": "Lot Manager",
+                    "hours?": "M-F 8AM-5PM"
+                  }
+                ]
               },
               "destination*": {
                 "name": " - SOUTHLAKE",
@@ -63,7 +72,16 @@ left_code_blocks:
                 "hours": "",
                 "identifier*": 482829,
                 "phone": "",
-                "special_instructions": ""
+                "special_instructions": "",
+                "contacts*": [
+                  {
+                    "name*": "John Doe",
+                    "email*": "john.doe@example.com",
+                    "phone*": "7705550100",
+                    "title?": "Receiving",
+                    "hours?": "M-F 7AM-4PM"
+                  }
+                ]
               },
               "bill_to?": {
                 "name": "Corporate",
