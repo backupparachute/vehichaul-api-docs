@@ -7,7 +7,7 @@ parameters:
 content_markdown: |-
   Manage your Vehichaul users from your own IT scripts. Turn access on and off, and control which locations each user sees.
 
-  This API uses its own token. Request a provisioning token from support. A regular user API token does not work here, and the provisioning token does not work on any other Vehichaul API.
+  This API uses its own token. Request a provisioning token from support. A other types of tokens do not work here, and the provisioning token does not work on any other Vehichaul API.
   {: .info}
 
   Send the token in the Authorization header on every request.
