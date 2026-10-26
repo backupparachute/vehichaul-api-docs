@@ -29,6 +29,9 @@ collections:
   brokers:
     title: Brokers Connect
     position_number: 4
+  provisioning:
+    title: User Provisioning
+    position_number: 5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -66,6 +69,11 @@ defaults:
   -
     scope:
       type: "brokers"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "provisioning"
     values:
       _hide_content: true
 
