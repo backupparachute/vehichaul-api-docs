@@ -7,7 +7,7 @@ parameters:
 content_markdown: |-
   Manage your Vehichaul users from your own IT scripts. Turn access on and off, and control which locations each user sees.
 
-  This API uses its own token. Request a provisioning token from support. A other types of tokens do not work here, and the provisioning token does not work on any other Vehichaul API.
+  This API uses its own token. Request a provisioning token from support. Other types of tokens do not work here, and the provisioning token does not work on any other Vehichaul API.
   {: .info}
 
   Send the token in the Authorization header on every request.
@@ -34,7 +34,7 @@ content_markdown: |-
   A user with no locations and no `tms_filters` sees every location. Removing a user's last code gives them access to all locations, not to none.
   {: .error}
 
-  Two addresses can share a code. The API picks the oldest active address and returns `match_count` so you can spot a shared code.
+  Two addresses can share a code. Each code appears once per user, with the oldest active address the user holds for it. `match_count` is the number of active addresses that share the code, so you can spot a shared one.
 
   #### Errors
 
